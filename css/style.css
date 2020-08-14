@@ -130,8 +130,8 @@ img{max-width:100%;}
 }
 .grid1 img{
 	background:#465653;
-	padding:1px;
-	border-radius: 15%;
+	/*padding:0px;*/
+	/*border-radius: 0%;*/
 }
 .grid1 p a,.grid1 p{
 	font-family: 'gandhi_sansregular';
@@ -829,13 +829,11 @@ ol.type li a:hover {
 	text-transform: uppercase;
 }
 
-.portfolio-botom a:hover{
-	color: #665cbe;
-}
 
-.welcome-photo{
-	width:200px;
-	height:200px;
+
+.welcome-photo4{
+	width:400px;
+	height:300px;
 	position:relative;
 	margin-left:auto;
 	margin-right:auto;
@@ -857,10 +855,19 @@ ol.type li a:hover {
 	margin-right:auto;
 }
 
-.welcome-photo3{
+.welcome-photo5{
 	position:absolute;
-	left:0px; 
-	top:0px; 
-	width:200px; 
-	height:100%;
+	left:1000px;
+	top:1000px;
+	width:400px;
+	height:300px;
+}
+
+.welcome-photo{
+	width:400px;
+	height:300px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:12px;
 }
