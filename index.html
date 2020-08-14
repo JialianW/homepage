@@ -1,171 +1,402 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
-<meta name="keywords" content="Jialian Wu, State University of New York at Buffalo">
-<meta name="description" content="Jialian Wu&#39;s home page">
-<link rel="stylesheet" href="./css/jemdoc.css" type="text/css">
-<title>Jialian Wu, State University of New York at Buffalo</title>
-<script async="" src="./css/analytics.js"></script><script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87320911-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<script type="text/javascript" src="./css/jquery.min.js"></script></head>
-<body>
-<div id="layout-content" style="margin-top:25px">
-<table>
-	<tbody>
-		<tr>
-			<td width="670">
-				<div id="toptitle">					
-					<h1><font face="Arial"> Jialian Wu (<font face="KaiTi">吴嘉濂</font>)</font></h1>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Wuyang Chen</title>
+		<link href="./css/bootstrap.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href="./css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href="./css/prettyPhoto.css" rel="stylesheet" type="text/css"  media="all" />		
+		<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>	
+	</head>
+	<body>
+		<!---start-wrap--->
+		<!---start-header--->
+	<div class="header">
+		<div class="wrap">
+			<!---start-logo--->
+			<div class="logo">
+				<a href="#">Wuyang Chen</a>
+			</div>
+			<!---End-logo--->
+			<!---start-top-nav--->
+			<div class="top-nav">
+				<ul>
+					<li id="Me" class="active" onclick="func('Me')"><a href="#me" class="scroll">Me</a></li>
+					<li id="Education" onclick="func('Education')"><a href="#education" class="scroll">Education</a></li>
+					<li id="Research" onclick="func('Research')"><a href="#research" class="scroll">Research</a></li>
+					<li id="Publication" onclick="func('Publication')"><a href="#publication" class="scroll">Publication</a></li>
+					<li id="Talks" onclick="func('Talks')"><a href="#talks" class="scroll">Talks</a></li>
+					<li id="Activity" onclick="func('Activity')"><a href="#activity" class="scroll">Activity</a></li>
+					<li id="Experience" onclick="func('Experience')"><a href="#experience" class="scroll">Experience</a></li>
+					<!-- <li id="Contact" onclick="func('Contact')"><a href="#contact" class="scroll">Contact</a></li> -->
+				</ul>
+			</div>
+			<div class="clear"> </div>
+			<!---End-top-nav--->
+	     </div>
+	</div>
+	
+	<script> 
+	var lastname = 'Me';
+	function func(name){
+		var div = document.getElementById(name); 
+		div.className = 'active'; 
+		div = document.getElementById(lastname); 
+		div.className = ''; 
+		lastname = name;
+	}
+	function coming_soon()
+	{
+		alert("Coming soon.");
+	}
+	</script> 
+	
+		<!---End-wrap--->
+	<div class="content">
+		<div class="grid1" id="me">
+			<div class="welcome-photo">
+				<img src="./images/Wuyang_Chen.png" title="name" />
+				<!-- <a class="welcome-photo1"><img id="me1" src="./images/Wuyang_Chen.png" title="name" /></a> -->
+			</div>
+			<h3>Hi, I'm Wuyang Chen</h3>
+			<p>
+				I'm a Ph.D. student in <a target="_blank" href="https://engineering.tamu.edu/cse/index.html">Computer Science at Texas A&M University</a>
+				<br>
+				under the supervision of <a target="_blank" href="https://www.atlaswang.com/">Professor Atlas Wang</a>.
+				<br>
+				wuyang.chen AT tamu.edu
+			</p>
+			<p style="padding: 10px 0px 0px 0px;">
+				<a target="_blank" href="https://scholar.google.com/citations?user=RHOcEtsAAAAJ&hl=en"><img src="./images/gscholar.png" title="name" style="width:5%"/></a>
+				<a target="_blank" href="https://github.com/chenwydj"><img src="./images/github.png" title="name" style="width:5%"/></a>
+				<!-- <a target="_blank" href="mailto:wuyang.chen@tamu.edu"><img src="./images/email.png" title="name" style="width:5%"/></a> -->
+			</p>
+		</div>
+		<div class="grid3" id="education">
+			<div class="grid3-header">
+				<h3>Education</h3>
+				<br/>
+			</div>
+			<div class="grid3-content">
+				<div class="grid3-content">
+					<ul class="graid3-ul">
+						<li class="graid3-li"> Ph.D. student in Computer Science (08/2019 - present),
+								<a target="_blank" href="https://engineering.tamu.edu/cse/index.html">Texas A&M University (TAMU)</a>
+						</li>
+						<li class="graid3-li">
+							Master’s Degree in Computer Science (01/2016 - 12/2016), 
+								<a target="_blank" href="https://csweb.rice.edu/">Rice University</a>
+						</li>
+						<li class="graid3-li">
+							Bachelor’s Degree in Biosciences (08/2010 - 06/2014)<br/>
+							<a target="_blank" href="https://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>
+						</li>
+					</ul>
 				</div>
-				<h3><font face="Arial"> (<em>pronunciation: jar-liam wu</em>)</font></h3>
-				<h3><font face="Arial"> Ph.D. Candidate <br>State University of New York at Buffalo</font></h3>
-				<p><font face="Arial">Email: jialianw at buffalo dot edu <br>
-<!--				 <a href="https://www.linkedin.com/in/jialian-wu-0bb173162/"><img src="./pic/LinkedIn_s.png" height="30px" style="margin-bottom:-3px"></a>-->
-					[<a href="https://github.com/JialianW">Github</a>] [<a href="https://www.linkedin.com/in/jialian-wu-0bb173162">Linkedin</a>]
-					[<a href="https://drive.google.com/file/d/1Tp7hLu1LOSbvv7rimGRlCaViEG7mMrpu/view?usp=sharing">Curriculum Vitae</a>]
-				</p>
-			</td>
-		<td>
-		<img src="./pic/jialian.jpg" border="0" width="600"><br>
-		</td>
-		</tr><tr>
-	</tr></tbody>
-</table>
+			</div>
+		</div>
 
-<br>
-<br>
+		<div class="grid3" id="research" style="background:#ffffff">
+			<!-- <h3>Research</h3> -->
+			<div class="grid3-header">
+				<h3>Research Interest</h3>
+				<br/>
+			</div>
+			<!-- <p>My interest mainly lies in low-level image processing, including:</p> -->
+			<div class="grid3-content">
+				<div class="grid3-content">
+					<ul class="graid3-ul">
+						<li class="graid3-li"> Neural Architecture Search </li>
+						<li class="graid3-li"> Self-supervised Learning </li>
+					</ul>
+				</div>
+			</div>
+<!--
+			<ul>
+				<li>
+					<img src="./images/segmentation.png" title="Artdirector" />
+					<a>Semantic Segmentation</a>
+				</li>			
+				<li>
+					<img src="./images/nas.png" title="Artdirector" />
+					<a>Neural Architecture Search</a>
+				</li>
+				<li>
+					<img src="./images/efficiency.png" title="Artdirector" />
+					<a>Model Efficiency</a>
+				</li>
+				<li>
+					<img src="./images/domain_transfer.png" title="Artdirector" />
+					<a>Domain Generalization</a>
+				</li>
+				<li>
+					<img src="./images/self-supervised.png" title="Artdirector" />
+					<a>Self-supervided Learning</a>
+				</li>
+			</ul>
+-->
+			<p></p>
+			<!-- <p>My research projects are available at my <a class="grid2-herf" href="project.html">project page</a>.</p> -->
+		</div>
 
-<p style="text-align:justify" ;=""><font face="Arial">
-	I am a first-year Ph.D. student at State Univeristy of New York at Buffalo (UB), advised by Prof. <a href="https://cse.buffalo.edu/~jsyuan/index.html">Junsong Yuan</a>.
-Before that, I spent one year on the M.S. study at Tianjin University during 2018-2019 and left for UB in July 2019 before finishing my degree.
-I received B.Eng. degree from Tianjin University in 2018. My current research interest is object recognition including detection, segmentatoin, and tracking.
-</font></p>
+		<div class="grid3" id="publication">
+			<div class="grid3-header">
+				<h3>Publication</h3>
+				<!-- <p>For full publication list, please visit my  -->
+				<!-- <a class="grid2-herf"  href="publication.html">publication page</a> or -->
+				<!-- <a class="grid2-herf"  target="_blank"  href="https://scholar.google.com/citations?user=RHOcEtsAAAAJ&hl=en">google scholar</a> -->
+				<!-- </p> -->
+			</div>
+			<div class="grid3-content">
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/asg_icml20.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>Automated Synthetic-to-Real Generalization</div>
+					  <div class='paper-authors'><b>Wuyang Chen</b>, Zhiding Yu, Zhangyang Wang, Animashree Anandkumar</div>
+					  <div class='paper-venue'>ICML 2020</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/2007.06965.pdf">PDF</a>
+						<!-- <a class="btn btn-confirm" target="_blank" href="https://github.com/NVlabs/ASG">Code</a> -->
+						<a class="btn btn-confirm" >Code</a>
+					  </div>
+					</div>
+				</div>
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/pu_icml20.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>Self-PU: Self Boosted and Calibrated Positive-Unlabeled Training</div>
+					  <div class='paper-authors'>Xuxi Chen*, <b>Wuyang Chen</b>*, Tianlong Chen, Ye Yuan, Chen Gong, Kewei Chen, Zhangyang Wang</div>
+					  <div class='paper-venue'>ICML 2020</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/2006.11280.pdf">PDF</a>
+						<a class="btn btn-confirm" target="_blank" href="https://github.com/TAMU-VITA/Self-PU">Code</a>
+					  </div>
+					</div>
+				</div>
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/agd_icml20.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>Auto-GAN-Distiller: Searching to Compress Generative Adversarial Networks</div>
+					  <div class='paper-authors'>Yonggan Fu, <b>Wuyang Chen</b>, Haotao Wang, Haoran Li, Yingyan Lin, Zhangyang Wang</div>
+					  <div class='paper-venue'>ICML 2020</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/2006.08198.pdf">PDF</a>
+						<a class="btn btn-confirm" target="_blank" href="https://github.com/TAMU-VITA/AGD">Code</a>
+					  </div>
+					</div>
+				</div>
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/fasterseg_iclr20.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>FasterSeg: Searching for Faster Real-time Semantic Segmentation</div>
+					  <div class='paper-authors'><b>Wuyang Chen</b>, Xinyu Gong, Xianming Liu, Qian Zhang, Yuan Li, Zhangyang Wang</div>
+					  <div class='paper-venue'>ICLR 2020</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/1912.10917.pdf">PDF</a>
+						<a class="btn btn-confirm" target="_blank" href="https://github.com/chenwydj/FasterSeg">Code</a>
+					  </div>
+					</div>
+				</div>
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/glnet_cvpr19.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images</div>
+					  <div class='paper-authors'><b>Wuyang Chen*</b>, Ziyu Jiang*, Zhangyang Wang, Kexin Cui, Xiaoning Qian</div>
+					  <div class='paper-venue'>CVPR 2019 (oral)</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/1905.06368.pdf">PDF</a>
+						<a class="btn btn-confirm" target="_blank" href="https://github.com/chenwydj/ultra_high_resolution_segmentation">Code</a>
+						<a class="btn btn-confirm" target="_blank" href="https://www.youtube.com/watch?v=am1GiItQI88">Video</a>
+					  </div>
+					</div>
+				</div>				
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/adin_wacv20.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>Calibrated Domain-Invariant Learning for Highly Generalizable Large Scale Re-Identification</div>
+					  <div class='paper-authors'>Ye Yuan, <b>Wuyang Chen</b>, Tianlong Chen, Yang Yang, Zhou Ren, Zhangyang Wang, Gang Hua</div>
+					  <div class='paper-venue'>WACV 2020</div>
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/1911.11314.pdf">PDF</a>
+						<a class="btn btn-confirm" target="_blank" href="https://github.com/TAMU-VITA/ADIN">Code</a>
+					  </div>
+					</div>
+				</div>	
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/fatloss_cvpr20.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>In Defense of the Triplet Loss Again: Learning Robust Person Re-Identification with Fast Approximated Triplet Loss and Label Distillation</div>
+					  <div class='paper-authors'>Ye Yuan, <b>Wuyang Chen</b>, Yang Yang, Zhangyang Wang</div>
+					  <!-- <div class='paper-venue'>WACV 2020</div> -->
+					  <div class='paper-link'>
+						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/1912.07863.pdf">PDF</a>
+						<a class="btn btn-confirm" target="_blank" href="https://github.com/TAMU-VITA/FAT">Code</a>
+					  </div>
+					</div>
+				</div>	
+				<div class='row publication-entity'>
+					<div class='col-xs-3'>
+					  <img class="paper-image" src="images/publication/abdnet_eccv19.png">
+					</div>
+					<div class='col-xs-9'>
+					  <div class='paper-title'>ABD-Net: Attentive but Diverse Person Re-Identification</div>
+					  <div class='paper-authors'>Tianlong Chen, Shaojin Ding, Jingyi Xie, Ye Yuan, <b>Wuyang Chen</b>, Yang Yang, Zhou Ren, Zhangyang Wang</div>
+					  <div class='paper-venue'>ICCV 2019</div>
+					  <div class='paper-link'>
+							<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/1908.01114.pdf">PDF</a>
+							<a class="btn btn-confirm" target="_blank" href="https://github.com/TAMU-VITA/ABD-Net">Code</a>
+					  </div>
+					</div>
+				</div>	
+			</div>			
+		</div>
 
+		<div class="grid3" id="talks" style="background:#ffffff">
+			<div class="grid3-header" id="talks">
+				<h3>Talks</h3>
+				<br/>
+			</div>		
+			<div class="grid3-content">
+				<ul class="graid3-ul">
+					<li class="graid3-li">
+						CVPR’19 oral presentation "Collaborative Global-Local Networks for Memory-Eﬃcient Segmentation of Ultra-high Resolution Images.", 2019.
+					</li>
+					<li class="graid3-li">
+						CVPR’19 workshop on Gigapixel Videography in Computer Vision, 2019.
+					</li>
+					<li class="graid3-li">
+						Best Student Speaker and Outstanding Researcher, <a target="_blank" href="https://csst.ucla.edu">CSST program, UCLA</a>, 2013.
+					</li>
+				</ul>
+			</div>
+		</div>
 
+		<div class="grid3" id="activity" style="background:#eee">	
+			<div class="grid3-header" id="activity">
+				<h3>Activity</h3>
+				<br/>
+			</div>		
+			<div class="grid3-content">
+				<h3>Professional Services:</h3>
+				<ul class="graid3-ul">
+					<li class="graid3-li"> Workshop Organizer: <a target="_blank" href="http://www.ug2challenge.org">UG<sup>2</sup>+, CVPR 2020</a>
+					</li>				
+					<li class="graid3-li"> Reviewer: CVPR, ICCV, WACV
+					</li>
+				</ul>
+				<h3>Awards and Honors:</h3>
+				<ul class="graid3-ul">
+					<li class="graid3-li"> Travel Award, Mathematical/Statistical approaches in DAta Science (MSDAS) Workshop, UT Dallas, 2019.
+					</li>
+					<li class="graid3-li"> Best Student Speaker and Outstanding Researcher, <a target="_blank" href="https://csst.ucla.edu">CSST program, UCLA</a>, 2013.
+					</li>
+					<li class="graid3-li"> UCLA CSST Scholarship, 2013
+					</li>	
+					<li class="graid3-li"> Gold Medal (Team Leader of 20 members) iGEM, MIT, 2012
+					</li>
+				</ul>
+				<br/>
+			</div>
+		</div>		
 
-
-
-
-<h2><font face="Arial"> Publications </font></h2>
-<!--<ul style="list-style-type:none">-->
-	<ul style="list-style:none;margin:0px;padding:0px;">
-<!--<p><font face="Arial">Summary: IEEE Transactions [2], CVPR [2].</font></p>
-<ul style="list-style-type:none"> -->
+		<div class="grid3" id="experience" style="background:#ffffff">	
+			<div class="grid3-header" id="experience">
+				<h3>Professional Experience</h3>
+				<br/>
+			</div>		
+			<div class="grid3-content">
+				<ul class="graid3-ul">
+					<li class="graid3-li">
+						Research Assistant, Visual Informatics Group, Texas A&M University, May 2018 - Present
+						<br>
+						Advisor: <a target="_blank" href="https://www.atlaswang.com/home">Prof. Zhangyang (Atlas) Wang</a>
+					</li>
+					<li class="graid3-li">
+						Research Intern, NVIDIA, Jan. 2020 - Aug. 2020
+						<br>
+						Advisor: <a target="_blank" href="https://chrisding.github.io">Dr. Zhiding Yu</a>, <a target="_blank" href="http://tensorlab.cms.caltech.edu/users/anima/">Prof. Anima Anandkumar</a>
+					</li>
+					<li class="graid3-li">
+						Research Intern, Applied AI Lab, Horizon Robotics, Mar. 2019 - Aug. 2019
+						<br>
+						Advisor: <a target="_blank" href="https://scholar.google.com/citations?user=697UEEIAAAAJ&hl=en">Dr. Xianming Liu</a>, <a target="_blank" href="https://www.linkedin.com/in/yuan-li-328bb91a">Yuan Li</a>
+					</li>
+					<li class="graid3-li">
+						Research Assistant, University of Science and Technology of China, Sep. 2013 - Jun. 2014
+						<br>
+						Advisor: <a target="_blank" href="http://biocomp.ustc.edu.cn/people/pi.php">Prof. Haiyan Liu</a>
+					</li>
+					<li class="graid3-li">
+						Research Intern, <a target="_blank" href="https://csst.ucla.edu">CSST program, UCLA</a>, Jun. 2013 - Sep. 2013
+						<br>
+						Advisor: <a target="_blank" href="https://yeateslab.mbi.ucla.edu">Prof. Todd O. Yeates</a>
+					</li>
+				</ul>
+			</div>
+		</div>		
+		<!-- <div class="grid2" id="contact">
+			<h3>Contact</h3>	
+			<div class="grid2-content">
+				<p>Email: williamyang AT pku.edu.com</p>			
+			</div>			
+		</div> -->
+		<div class="footer">
+			<p>2019 Wuyang Chen. Powered by <a href="https://williamyang1991.github.io/">Shuai Yang</a></p>
+		</div>
+	</div>
 	
-    	<li><div class="photo"><img src="./pic/cvpr20.png" border="0" width="300"></div>
-	<div class="intro">
-            Temporal-Context Enhanced Detection of Heavily Occluded Pedestrians <br>
-         <i>   <b>Jialian Wu</b>,Chunluan Zhou, Ming Yang, Qian Zhang, Yuan Li, and Junsong Yuan </i><br>
-	       IEEE Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2020. <br>
-		[<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Temporal-Context_Enhanced_Detection_of_Heavily_Occluded_Pedestrians_CVPR_2020_paper.pdf">PDF</a>]
-		[<a href="https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Wu_Temporal-Context_Enhanced_Detection_CVPR_2020_supplemental.pdf">supp</a>]
-	</div></li>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/jquery.banner.js"></script>
+		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>		
+		<script type="text/javascript" src="js/jquery.isotope.js"></script>	
+		<script type="text/javascript" src="js/main.js"></script>	
+		<!-- <a href="https://clustrmaps.com/site/1ar7z" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=K7jBF2yeoMiKWtCj5crj3IbNP7Ru3ZJt3lLwQL1HJ_E&cl=ffffff"></a> -->
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},800);
+			});
+		});	
+		var curid = 0;
+		var imgid = 0;
+		function change()
+		{
+			imgid++;
+			imgid%=4;
+			if(curid == 1){
 
-	    	<li><div class="photo2"><img src="./pic/Forest_Rcnn.png" border="0" width="300" ></div>
-	<div class="intro">
-           Forest R-CNN: Large-Vocabulary Long-Tailed Object Detection and Instance Segmentation <br>
-         <i>   <b>Jialian Wu</b>, Liangchen Song, Tiancai Wang, Qian Zhang, and Junsong Yuan </i><br>
-	       ACM International Conference on Multimedia (<b>ACM MM</b>), 2020. <br>
-	  [<a href="https://arxiv.org/abs/2008.05676">PDF</a>]
-		 [<a href="https://github.com/JialianW/Forest_RCNN">Code</a>]
-	</div></li>
-
-		    	<li><div class="photo3"><img src="./pic/SML.png" border="0" width="300"></div>
-	<div class="intro3">
-            Self-Mimic Learning for Small-scale Pedestrian Detection <br>
-         <i>   <b>Jialian Wu</b>, Chunluan Zhou, Qian Zhang, Ming Yang, and Junsong Yuan </i><br>
-	       ACM International Conference on Multimedia (<b>ACM MM</b>), 2020. <br>
-	  [<a href="https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf">PDF</a>]
-		 [<a href="https://cse.buffalo.edu/~jsyuan/papers/2020/SML_supp.pdf">supp</a>]
-	</div></li>
-
-<!--	     <li> <p style="margin-left: 0px; line-height: 150%; margin-top: 10px; margin-bottom: 10px;"><font face="Arial" size="3">-->
-<!--            Self-Mimic Learning for Small-scale Pedestrian Detection <br>-->
-<!--         <i>   <b>Jialian Wu</b>, Chunluan Zhou, Qian Zhang, Ming Yang, and Junsong Yuan </i><br>-->
-<!--	       ACM International Conference on Multimedia (<b>ACM MM</b>), 2020. <br>-->
-<!--	  [<a href="https://cse.buffalo.edu/~jsyuan/papers/2020/SML.pdf">PDF</a>]-->
-<!--		 [<a href="https://cse.buffalo.edu/~jsyuan/papers/2020/SML_supp.pdf">supp</a>]-->
-<!--	  </font>-->
-<!--	 </p> </li>-->
-
-
-
-
-<!--					<div class='row publication-entity'>-->
-<!--					<div class='col-xs-3'>-->
-<!--					  <img class="paper-image" src="pic/jialian.jpg">-->
-<!--					</div>-->
-<!--					<div class='col-xs-9'>-->
-<!--					  <div class='paper-title'>In Defense of the Triplet Loss Again: Learning Robust Person Re-Identification with Fast Approximated Triplet Loss and Label Distillation</div>-->
-<!--					  <div class='paper-authors'>Ye Yuan, <b>Wuyang Chen</b>, Yang Yang, Zhangyang Wang</div>-->
-<!--					  &lt;!&ndash; <div class='paper-venue'>WACV 2020</div> &ndash;&gt;-->
-<!--					  <div class='paper-link'>-->
-<!--						<a class="btn btn-confirm" target="_blank" href="https://arxiv.org/pdf/1912.07863.pdf">PDF</a>-->
-<!--						<a class="btn btn-confirm" target="_blank" href="https://github.com/TAMU-VITA/FAT">Code</a>-->
-<!--					  </div>-->
-<!--					</div>-->
-<!--				</div>-->
-	
-
-
-</ul>
-
-
-<h2><font face="Arial"> Research Experiences </font></h2>
-
-    <ul style="list-style-type:none">
-	<li> <p style="margin-left: 0px; line-height: 120%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-              <strong> Research Intern, Applied AI Lab, Horizon Robotics, San Francisco Bay Area.</strong> <br> </font> </p>
-	      <p style="margin-left: 0px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-		 <em>May-August, 2020.</em> Mentor: <a href="https://scholar.google.com/citations?user=uNj2w9gAAAAJ&hl=en">Yu Wang</a>.
-	      </font> </p>
-         </li>
-
-		<li> <p style="margin-left: 0px; line-height: 120%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-              <strong> Research Intern, Horizon Robotics, Beijing.</strong> <br> </font> </p>
-	      <p style="margin-left: 0px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-		 <em>May-August, 2018.</em> Mentor: <a href="https://scholar.google.com/citations?user=pCY-bikAAAAJ&hl=zh-CN">Qian Zhang</a>.
-	      </font> </p>
-         </li>
-    </ul>
-
-
-<h2><font face="Arial"> Professional Activities </font></h2>
-<ul style="list-style-type:none">
-	
-	<li> <p style="margin-left: 0px; line-height: 120%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-              <strong> Conference Reviewer </strong> <br> </font> </p>
-	      <p style="margin-left: 20px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-		 CVPR 2020, WACV 2021, ACCV 2020
-	      </font> </p> 
-         </li>
-	
-	<li> <p style="margin-left: 0px; line-height: 120%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-              <strong> Journal Reviewer </strong> <br> </font> </p>
-	      <p style="margin-left: 20px; line-height: 150%; margin-top: 8px; margin-bottom: 8px;"><font face="Arial" size="3">
-		 IEEE Transactions on Image Processing
-	      </font> </p> 
-         </li>
-	
-	<center>
-		<a href="https://clustrmaps.com/site/1bca3" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=m&d=5_NGtk26dqmCmuXbnUDXFocM514zOxXJ7W6oUtc_RXU&co=2d78ad&ct=ffffff" /></a>
-	</center>
-	
-	<p></p><center><font face="Arial">
-        <br>
-            © Jialian Wu | Last updated: Aug. 2020
-        </font></center><p></p>
-		
-</center></div>
-
-
-</ul></div></body></html>
-
+				$("#me1").attr("src","images/g" + imgid + ".png");
+				$('#me2').fadeOut(1000);
+			}else {
+				$("#me2").attr("src","images/g" + imgid + ".png");
+				$('#me2').fadeIn(1000);
+			}
+			curid++;
+			curid%=2;
+		}
+		setInterval(change,10000);
+		</script>			
+	</body>
+</html>
