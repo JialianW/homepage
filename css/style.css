@@ -503,7 +503,7 @@ i{
 }
 /*-----publication entity----*/
 .publication-entity {
-	font-family: 'gandhi_sansregular';
+	font-family: 'Georgia';
 	font-size: 1.2em;
 	text-align:justify;
 	margin-top: 20px;
@@ -514,9 +514,10 @@ i{
 }
 .paper-title {
 	font-size: 1.1em;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .paper-authors {
+	font-style:italic;
 }
 .paper-venue {
 }
