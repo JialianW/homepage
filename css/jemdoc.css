@@ -103,6 +103,15 @@ div.menu-category {
 	font-weight: bold;
 }
 
+.photo{
+    float:left;
+    width:20%;
+}
+.intro{
+    float:right;
+    width:80%;}
+
+
 div.menu-item {
 	padding-left: 16px;
 	text-indent: -16px;
