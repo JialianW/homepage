@@ -119,7 +119,7 @@ img{max-width:100%;}
 /*---content----*/
 .grid1{
 	/* background:#4dc9b0; */
-	background:#00ccff;
+	background:#c5e1a5;
 	text-align:center;
 	padding: 50px 0px 15px 0px;
 }
@@ -240,7 +240,7 @@ i{
 }
 /*----grid3-----*/
 .grid3{
-	background:#F5F5F5;
+	background:#ffffff;
 	padding: 50px 0px;
 }
 .grid3-header{
@@ -264,7 +264,7 @@ i{
 }
 .grid3-left{
 	float: left;
-	width: 70%;
+	width: 42%;
 }
 .grid3-left ul li{
 	display:inline-block;
