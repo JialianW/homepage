@@ -157,7 +157,7 @@ img{max-width:100%;}
 	color: #000000;
 	font-size: 2.2em;
 	width: 57%;
-	margin: 5% 0% 0% 10%;
+	margin: 5% 0% 0% 0%;
 	/*vertical-align:middle;*/
 }
 
@@ -179,7 +179,7 @@ img{max-width:100%;}
 	/*vertical-align:middle;*/
 	width: 57%;
 	/*margin:0 auto;*/
-	margin: 0% 0% 0% 10%;
+	margin: 0% 0% 0% 0%;
 }
 .container p a{
 	/*vertical-align:middle;*/
