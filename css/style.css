@@ -196,6 +196,24 @@ img{max-width:100%;}
 }
 
 
+
+
+figure {
+  padding: 4px;
+  margin: auto;
+	text-align: center;
+}
+
+figcaption {
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+
+
+
 .grid1{
 	/*vertical-align:middle;*/
 	/* background:#4dc9b0; */
