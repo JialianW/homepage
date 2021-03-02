@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="language" content="english">
+<title>Track to Detect and Segment: An Online Multi-Object Tracker</title>
+<meta name="description" content="Deep Plastic Surgery">
+<meta name="author" content="Jialian Wu">
+	<link rel="shortcut icon" href="images/ub.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/project.css">
+</head>
+	<script> 
+	function coming_soon()
+	{
+		alert("We are cleaning up our code to make it more simple and readable");
+	}
+	</script> 
+
+<body>
+<div id="main">
+  
+	<div class="content"><br>
+		<div class="title">
+			<h1>Track to Detect and Segment: An Online Multi-Object Tracker</h1>
+		</div>
+		<div class="authors" style="width:95%">
+			<div class='author'>
+				 <A>Jialian Wu,</A>
+		    </div>
+			<div class='author'>
+				<A>Jiale Cao,</A>
+			</div>
+			<div class='author'>
+				<A>Liangchen Song,</A>
+			</div>		
+			<div class='author'>
+				<A>Yu Wang,</A>
+			</div>
+			<div class='author'>
+				<A>Ming Yang,</A>
+			</div>
+			<div class='author'>
+				<A>Junsong Yuan</A>
+			</div>
+		</div>
+		<br>
+		<div class="publication" style="width:95%">
+		<A>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2021.</A>
+		</div>
+
+		<div class="video" style="width:95%">
+<!--			<iframe width="560" height="315" src="https://www.youtube.com/embed/ru0K8uYEZWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+<!--			<iframe width="560" height="315" src="https://www.youtube.com/embed/DjmS-JoWzIw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+		</div>
+
+		<div class="papercode" style="width:95%">
+			Paper and code will be available soon
+			<br>
+			<div class='paper'>
+			<a target="_blank"  ><img src="../images/pdf.png"  title="name" style="width:4%;vertical-align:middle;padding: 0 5px 10px 0"/>Paper</a>
+			</div>
+			<div class='paper'>
+			<a target="_blank" ><img src="../images/github2.png" title="name" style="width:5%;vertical-align:middle;padding: 0 5px 12px 0"/>Code</a>
+			</div>
+		</div>
+
+		<div class="abstract_sec">
+			<h2>Abstract</h2>
+			<div class='desp'>
+				<p style="text-align:justify">
+					Most online multi-object trackers perform object detection stand-alone in a neural net without any input from tracking. In this paper, we present a new online joint detection and tracking model, TraDeS (TRAck to DEtect and Segment), exploiting tracking clues to assist detection end-to-end. TraDeS infers object tracking offset by a cost volume, which is used to propagate previous object features for improving current object detection and segmentation. Effectiveness and superiority of TraDeS are shown on 4 datasets, including MOT (2D tracking), nuScenes (3D tracking), MOTS and Youtube-VIS (instance segmentation tracking).
+					</p>
+			</div>
+		</div>
+
+		<div class="abstract_sec">
+			<h2>Framework</h2>
+			<div class="images">
+		  		<img src='TraDeS/figs/framework.png' width='100%' alt="Teaser" >
+		  		<p style="text-align: justify">Figure 1. Framework overview. Specifically, we propose a cost volume based association (CVA) module and a motion-guided feature warper (MFW) module, respectively. The CVA extracts point-wise re-ID embedding features by the backbone to construct a cost volume that stores matching similarities between all embedding pairs in two frames. Then, we infer the tracking offsets from the cost volume, which are the spatio-temporal displacements of all the points, <em>i.e.</em> potential object centers, in two frames. The tracking offsets together with the embeddings are utilized to conduct a simple two-round long-term data association. Afterwards, the MFW takes the tracking offsets as motion cues to propagate object features from the previous frames to the current one. Finally, the propagated feature and the current feature are aggregated to derive detection and segmentation.</div>
+	  	</div>	
+
+		
+<!--		<div class="download_sec">-->
+<!--			<h2>Resources</h2>-->
+<!--			<div>-->
+<!--				<li><strong>Paper</strong>: <a href="https://arxiv.org/abs/2001.02890">arXiv</a></li>-->
+<!--				<li><strong>Supplementary Material</strong>: <a href="./DPS/files/DeepPlasticSurgery-supp.pdf">PDF</a> (7.53MB), <a href="https://drive.google.com/file/d/1W5nCrtEwqtI9vXandHey2hVVb7hB9xC7/view">MP4</a> (36.1MB)</li>-->
+<!--				<li><strong>Human-Drawn Facial Sketches</strong>: <a href="./DPS/files/human-drawn_facial_sketches.zip">ZIP</a> (11.1MB, our collected 30 facial sketches and results by [3], [4] and our model.)</li>-->
+<!--				<li><strong>Released Code</strong>: <a href="https://github.com/TAMU-VITA/DeepPS">Pytorch implementation</a></li>-->
+<!--			</div>-->
+<!--		</div>-->
+
+		<div class='citation_sec'>
+			<h2>Citation</h2>
+			<p class='bibtex'>@inproceedings{Wu2021TraDeS,
+ title={Track to Detect and Segment: An Online Multi-Object Tracker},
+ author={Wu, Jialian and Cao, Jiale and Song, Liangchen and Wang, Yu and Yang, Ming and Yuan, Junsong},
+ booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+ year={2021}
+}</p>
+		</div>
+
+		<div class="experiments_sec">
+			<h2>Selected Results</h2>
+			<div id="images">
+				<img src="TraDeS/figs/results.png" alt="" width="100%" >
+<!--				<P style="text-align: justify">Figure 3. Comparison with state-of-the-art methods on face edting. (a) Input photos, masks and sketches. (b) DeepFillv2 [1]. (c) SC-FEGAN [2].  (d) Our results with <em>l</em>=0. (e) Our results with <em>l</em>=1. (f) SC-FEGAN using our refined sketches as input.</P>-->
+			</div>
+<!--			<div id="images">-->
+<!--				<img src="DPS/figures/compare2.jpg" alt="" width="100%" >		-->
+<!--				<P style="text-align: justify">Figure 4. Comparison with state-of-the-art methods on face synthesis. (a) Input human-drawn sketches. (b) BicycleGAN [3]. (c) pix2pixHD [4].  (d) pix2pix [5]. (e) Our results with <em>l</em>=1. (f) pix2pixHD using our refined sketches as input.</P>	-->
+<!--			</div>			-->
+			
+		</div>
+		
+		<div class="reference_sec">
+		<h2>Reference</h2>
+		  <div class="bib" style="text-align: justify">
+<!--		    <p>[1] J. Yu, Z. Lin, J. Yang, X. Shen, X. Lu, T.S. Huang. Free-form image inpainting with gated convolution. ICCV 2019.</p>-->
+<!--		    <p>[2] Y. Jo, J. Park. SC-FEGAN: Face editing generative adversarial network with user’s sketch and color. ICCV 2019.</p>-->
+<!--		  	<p>[3] J.Y. Zhu, R. Zhang, D. Pathak, T. Darrell, A.A. Efros, O. Wang, E. Shechtman. Toward multimodal image-to-image translation. NeurIPS 2017.</p>-->
+<!--			<p>[4] T.C. Wang, M.Y. Liu, J.Y. Zhu, A. Tao, J. Kautz, B. Catanzaro. High-resolution image synthesis and semantic manipulation with conditional GANs. CVPR 2018.</p>-->
+<!--			<p>[5] P. Isola, J.Y. Zhu, T. Zhou, A.A. Efros. Image-to-image translation with conditional adversarial networks. CVPR 2017.</p>-->
+		  </div>
+	</div>
+		
+		
+		<br></br> 
+
+
+	<p class="banner"align="center">Powered by <a href="https://williamyang1991.github.io/">Shuai Yang</a></p>
+  </div>
+</div>
+</body>
+</html>
