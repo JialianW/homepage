@@ -19,6 +19,10 @@ body {
 .title h1{
 	font-family: "Microsoft YaHei", 'gandhi_sansregular';
 }
+.subtitle1 h1{
+    font-family: "Microsoft YaHei", 'gandhi_sansregular';
+    font-size:1.5em;
+}
 
 div.content {
     width:850px; margin:5px auto; padding:3em 1em 1em 1em;
