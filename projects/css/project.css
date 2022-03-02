@@ -106,8 +106,6 @@ div.links {
     padding-top: 1em;
 }
 
-div.affiliation{
-}
 
 .bibtex {
     white-space: pre;
@@ -154,6 +152,29 @@ div.desp {
 }
 .author a:hover{
 	color:#665cbe;
+}
+
+.publication a{
+    color: #C34A2C;
+}
+
+div.affiliation{
+    font-weight:bold;
+    /*display: inline;*/
+    text-align: center;
+    width: 90%;
+    margin:auto;
+    font-size:14pt;
+}
+.affiliation a{
+    text-decoration:none;
+    color: #665cbe;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+.affiliation a:hover{
+    color:#665cbe;
 }
 
 .download_sec li{
