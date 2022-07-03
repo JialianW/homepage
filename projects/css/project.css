@@ -102,6 +102,21 @@ div.author{
     padding: 0 0em;
 }
 
+div.name{
+    text-align: center;
+    width: 90%;
+    margin:auto;
+    font-size:14pt;
+    color: #665cbe;
+}
+
+div.intro{
+    /*text-align: center;*/
+    width: 90%;
+    margin:auto;
+    font-size:14pt;
+}
+
 div.links {
     padding-top: 1em;
 }
