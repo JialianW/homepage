@@ -753,13 +753,19 @@ i{
 	float: left;
 }
 .paper-title {
-	font-size: 1.1em;
+	font-size: 1.15em;
 	/*font-weight: bold;*/
+	/*font-family: 'Bookman';*/
 }
 .paper-authors {
-	font-style:italic;
+	font-size: 1.0em;
+	/*font-style:italic;*/
+	font-family: 'Rockwell';
 }
 .paper-venue {
+	font-size: 1.0em;
+	/*font-style:italic;*/
+	font-family: 'Rockwell';
 }
 .paper-link a{
 	font-family: 'gandhi_sansregular';
