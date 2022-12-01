@@ -454,6 +454,111 @@ i{
 	color:#2A323A;
 }
 
+/*----grid4-----*/
+.grid4{
+	background:#ffffff;
+	padding: 35px 0px;
+}
+.grid4-header{
+	text-align: center;
+	border-bottom: 1px solid rgba(192, 192, 192, 0.44);
+	width: 66%;
+	margin: 0 auto;
+}
+.grid4-header h3{
+	font-family: 'Georgia';
+	color: #2A323A;
+	font-size: 2.3em;
+	padding-bottom: 1px;
+}
+.grid4-header p{
+	font-family: 'Georgia';
+	color: #2A323A;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+.grid4-left{
+	float: left;
+	width: 42%;
+}
+.grid4-left ul li{
+	display:inline-block;
+}
+.grid4-left ul li a{
+	padding: 9px;
+}
+.grid4-left h3{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1.9em;
+	padding: 0px 0px 5px 0px;
+}
+.grid4-left p{
+	font-family: 'gandhi_sansregular';
+	color: #2A323A;
+	font-size: 1em;
+	line-height: 1.8em;
+	padding-bottom: 20px;
+	width: 98%;
+}
+.grid4-right{
+	float: right;
+	width: 57%;
+	background: #fff;
+	padding: 4px;
+	box-shadow: 0px 0px 10px rgba(136, 136, 136, 0.14);
+}
+.grid4-content{
+	width: 60%;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.graid4-ul{
+	font-family: 'Georgia', "微软雅黑";
+	color: #2A323A;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 98%;
+	list-style: disc;
+}
+.grid4-content h3{
+	font-family: 'Georgia';
+	color: #2A323A;
+	font-size: 1.5em;
+	padding: 10px 0px 15px 0px;
+}
+strong, b {
+	font-weight: bold;
+}
+i{
+	font-style: italic;
+}
+.graid4-li{
+	font-family: 'Georgia';
+	color: #000000;
+	font-size: 1.1em;
+	padding: 0px 5px 10px 5px;
+}
+.graid4-li2{
+	font-family: 'Georgia';
+	color: #000000;
+	font-size: 1.3em;
+	padding: 0px 0px 0px 0px;
+}
+.graid4-ul a{
+	color: #665cbe;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+.grai4-ul a:hover{
+	color:#2A323A;
+}
+
 .button{
 	font-family: 'gandhi_sansregular';
 	color: #FFFFFF;
