@@ -772,6 +772,12 @@ i{
 	font-family: 'gandhi_sansregular';
 	font-size: 0.8em;
 }
+.paper-description {
+	font-size: 0.8em;
+	color: grey;
+	font-style:italic;
+	font-family: 'Times New Roman';
+}
 .btn-confirm {
   margin-right: 5px;
   padding: 0px 10px;;
