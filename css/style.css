@@ -151,6 +151,14 @@ img{max-width:100%;}
   margin:auto ;
 }
 
+.container > .smalltext {
+	flex: 1.5 0 0%;
+	font-size: 9px;
+	/* and eventually */
+  
+	margin:auto ;
+  }
+
 .container h3{
 
 	font-family: 'Georgia', "KaiTi";
